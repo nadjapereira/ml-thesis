@@ -50,25 +50,25 @@ The raw dataset consists of 858 rows, composed of columns related to a campaign,
 ![image](https://github.com/nadjapereira/ml-thesis/assets/11997614/0ed359c9-3f67-4591-acd9-de8198ec3ca5)
 
 
-### 5.1. Exploratory Analysis (Total Dataset)
+### 5.1. Analysis (Total Dataset)
 Below are the details of the total dataset, and even the 'cleaned' dataset with processed data shows similar values. For example, there is a histogram with very similar values and outliers present in the dataset. 95% of the revenue is 0, which means that a significant investment is made in ads, but almost no revenue is generated.
 
 ![image](https://github.com/nadjapereira/ml-thesis/assets/11997614/21d9e8be-ca04-4b33-9871-89878b8d2748)
 
 
-## (Positive ROAS)
+## Positive ROAS
 After separating the dataset into positive and negative ROAS, new insights are presented. In the case of positive revenue, for example, there is a significantly higher value related to the search for "Google Merchandise Store" with a cost of $2,182 and revenue of $135,917, resulting in a ROAS of 6129%. The second unusual value is $61 in cost and $1,324 in revenue, with a 2070% ROAS.
 
 ![image](https://github.com/nadjapereira/ml-thesis/assets/11997614/11b611be-32ff-44aa-bbaf-f4edee663b90)
 
 
-## (Negative ROAS)
+## Negative ROAS
 Considering 35 rows with different revenue values, there is an average of -0.74%. The lowest value is -9% with a $300 investment and $274 in returns.
 
 ![image](https://github.com/nadjapereira/ml-thesis/assets/11997614/2b51e2a7-45bb-4d50-944d-3874e37074ad)
 
 
-### (Linear Regression)
+### Linear Regression
 Comparing the R^2 of the dataset, we have on the left side revenue data that is 'greater' than the others and revenue data that is 'lower,' both with negative values. The prevalence of negative revenue directly affects the index.
 
 ![image](https://github.com/nadjapereira/ml-thesis/assets/11997614/6b83fb39-c246-46b5-b356-20fe0b551452)
